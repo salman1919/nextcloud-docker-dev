@@ -15,7 +15,7 @@ jobs:
   push_to_registry:
     name: Build image
     runs-on: ubuntu-latest
-    if: github.repository == 'juliusknorr/nextcloud-docker-dev'
+    if: github.repository == 'salman1919/nextcloud-docker-dev'
     strategy:
       fail-fast: false
       matrix:
